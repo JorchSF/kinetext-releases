@@ -1,2 +1,111 @@
-# kinetext-releases
-Instaladores y actualizaciones de Kinetext (el código fuente es privado)
+<div align="center">
+
+# Kinetext
+
+**El editor de texto rápido y nativo para Mac, con Claude integrado.**
+
+Escribe código, Markdown y notas en una app ligera que se abre al instante,
+entiende casi cualquier tipo de fichero y trae a Claude de serie, sin instalar
+nada más.
+
+[**⬇ Descargar para Mac**](https://github.com/JorchSF/kinetext-releases/releases/latest) ·
+macOS con Apple Silicon (M1 o posterior)
+
+![Kinetext editando código con el explorador del proyecto](images/editor.png)
+
+</div>
+
+---
+
+## Por qué Kinetext
+
+- **Ligero y nativo.** Una app de Mac pequeña, sin el peso de un IDE, para
+  abrir una carpeta y ponerte a escribir.
+- **Claude dentro de la app.** Pregunta, revisa o reescribe tu código con
+  Claude en un panel lateral o en pestañas, con el fichero o la selección como
+  contexto (⌥⌘K). Kinetext lo prepara solo la primera vez: no tienes que
+  instalar nada.
+- **Un solo sitio para todo.** Código, Markdown, CSV, hojas de cálculo, PDF,
+  imágenes, bases de datos SQLite, audio, vídeo, comprimidos… se abren en
+  pestañas sin cambiar de app.
+- **No pierdes nada.** Si cierras con cambios sin guardar, al volver siguen
+  ahí, con el cursor donde lo dejaste.
+- **Hecho para el Mac.** Firmado y notarizado por Apple, con menús nativos,
+  modo claro y oscuro, VoiceOver y atajos de macOS.
+
+---
+
+## Lo que puedes hacer
+
+### Markdown con vista previa en vivo
+
+Escribe a la izquierda y mira el resultado a la derecha mientras tecleas:
+tablas, código resaltado, imágenes y diagramas Mermaid.
+
+![Vista previa de Markdown junto al editor](images/markdown.png)
+
+### Notas siempre a mano
+
+Una vista propia para tus ideas, listas y apuntes, en Markdown y con buscador.
+Se guardan solas mientras escribes. Ábrelas con ⌘⌥N desde cualquier sitio.
+
+![Vista de notas con la lista y el editor](images/notes.png)
+
+### A tu manera
+
+Tema claro u oscuro, tamaño de letra, interlineado, color y grosor del cursor,
+minimapa, idioma (español o inglés)… Todo se aplica al momento desde Ajustes.
+
+![Ajustes de Kinetext](images/settings.png)
+
+### Y mucho más
+
+| | |
+|:--|:--|
+| **Varios cursores** | ⌘D para la siguiente coincidencia, ⌘⇧L para todas, ⌥ + arrastrar para editar en columna |
+| **Paleta de comandos** | ⌘⇧P para cualquier acción, ⌘P para saltar a cualquier fichero (`ruta:42` va a la línea 42) |
+| **Buscar y reemplazar** | En el fichero o en todo el proyecto, con texto o expresiones regulares |
+| **Git integrado** | Commit, push, pull, ramas, historial y blame desde el menú; la rama, en la barra de estado |
+| **Terminal** | La shell de tu Mac en un panel inferior (⌃`) |
+| **Comparar ficheros** | Lado a lado, o un fichero con el contenido del portapapeles |
+| **Visores** | PDF con texto seleccionable y OCR, Excel y ODS por hojas, Word, SQLite con consola SQL, audio, vídeo, fuentes y comprimidos con «Extraer aquí» |
+| **Pestañas** | Clic derecho para cerrar las demás, las de la derecha o todas; flechas y rueda del ratón cuando no caben |
+| **Codificaciones** | Abre y guarda en UTF-8, UTF-16, Windows-1252, Mac Roman y muchas más |
+| **Sesión** | Vuelve a abrir la misma carpeta, las mismas pestañas y los mismos cursores |
+| **Accesibilidad** | Alto contraste, reducir movimiento, foco reforzado y compatibilidad con VoiceOver |
+
+---
+
+## Instalación
+
+1. Descarga el último `Kinetext_<versión>_aarch64.dmg` desde
+   [**Releases**](https://github.com/JorchSF/kinetext-releases/releases/latest).
+2. Ábrelo y arrastra **Kinetext** a la carpeta **Aplicaciones**.
+3. Abre Kinetext. Está firmado y notarizado por Apple, así que macOS lo abre
+   sin avisos de seguridad.
+
+**Requisitos:** un Mac con Apple Silicon (M1, M2, M3, M4 o posterior). Para
+usar Claude necesitas tu cuenta de Claude y conexión a internet la primera vez
+que lo abras.
+
+## Actualizaciones
+
+Kinetext busca versiones nuevas al abrirse y desde **Kinetext → Buscar
+actualizaciones…**. Si hay una, te enseña las novedades y, si aceptas, la
+descarga, la instala y te ofrece reiniciar. Cada paquete va firmado, y la app
+rechaza cualquiera que no lo esté. Puedes desactivar la comprobación en
+Ajustes.
+
+Las novedades de cada versión están en
+[Releases](https://github.com/JorchSF/kinetext-releases/releases).
+
+---
+
+<div align="center">
+
+Kinetext es una aplicación de **Jordi Sánchez Fernández** ([jorch.es](https://jorch.es)).
+
+Este repositorio solo publica los instaladores y las actualizaciones; el código
+fuente es privado.
+
+</div>
