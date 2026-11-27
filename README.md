@@ -28,8 +28,8 @@ macOS con Apple Silicon (M1 o posterior)
   imágenes, bases de datos SQLite, audio, vídeo, comprimidos… se abren en
   pestañas sin cambiar de app.
 - **Escribe hablando.** Dicta con el micrófono y el texto aparece mientras
-  hablas. Whisper funciona dentro de tu Mac: el audio no sale del equipo y no
-  necesitas cuenta ni conexión.
+  hablas. Whisper funciona dentro de tu Mac: el audio no sale del equipo y,
+  una vez descargado el modelo, no necesitas cuenta ni conexión.
 - **No pierdes nada.** Si cierras con cambios sin guardar, al volver siguen
   ahí, con el cursor donde lo dejaste.
 - **Hecho para el Mac.** Firmado y notarizado por Apple, con menús nativos,
