@@ -2,11 +2,10 @@
 
 # Kinetext
 
-**El editor de texto rápido y nativo para Mac, con Claude integrado.**
+**El editor de texto nativo para Mac, con Claude integrado y dictado por voz.**
 
-Escribe código, Markdown y notas en una app ligera que se abre al instante,
-entiende casi cualquier tipo de fichero y trae a Claude de serie, sin instalar
-nada más.
+Escribe código, Markdown y notas, o díctalos, en una app ligera que entiende
+casi cualquier tipo de fichero y trae a Claude de serie, sin instalar nada más.
 
 [**⬇ Descargar para Mac**](https://github.com/JorchSF/kinetext-releases/releases/latest) ·
 macOS con Apple Silicon (M1 o posterior)
@@ -28,6 +27,9 @@ macOS con Apple Silicon (M1 o posterior)
 - **Un solo sitio para todo.** Código, Markdown, CSV, hojas de cálculo, PDF,
   imágenes, bases de datos SQLite, audio, vídeo, comprimidos… se abren en
   pestañas sin cambiar de app.
+- **Escribe hablando.** Dicta con el micrófono y el texto aparece mientras
+  hablas. Whisper funciona dentro de tu Mac: el audio no sale del equipo y,
+  una vez descargado el modelo, no necesitas cuenta ni conexión.
 - **No pierdes nada.** Si cierras con cambios sin guardar, al volver siguen
   ahí, con el cursor donde lo dejaste.
 - **Hecho para el Mac.** Firmado y notarizado por Apple, con menús nativos,
@@ -36,6 +38,16 @@ macOS con Apple Silicon (M1 o posterior)
 ---
 
 ## Lo que puedes hacer
+
+### Dicta en vez de teclear
+
+Pulsa el micrófono o ⌘⇧D y habla: el texto va apareciendo donde está el
+cursor, en el editor, en una nota o en el chat de Claude, y se coloca
+respetando la guía de margen. Con **comandos de voz** también controlas la
+app: «comando guardar», «comando nueva nota», «comando cerrar todas las
+pestañas».
+
+![Dictado en vivo con Whisper en el editor](images/dictation.png)
 
 ### Markdown con vista previa en vivo
 
@@ -62,6 +74,8 @@ minimapa, idioma (español o inglés)… Todo se aplica al momento desde Ajustes
 
 | | |
 |:--|:--|
+| **Dictado por voz** | Whisper (large-v3-turbo) en el Mac, acelerado con la GPU; en vivo mientras hablas o al terminar, a tu elección |
+| **Comandos de voz** | «comando …» ejecuta cualquier acción de la paleta; lo que digas después se escribe a continuación |
 | **Varios cursores** | ⌘D para la siguiente coincidencia, ⌘⇧L para todas, ⌥ + arrastrar para editar en columna |
 | **Paleta de comandos** | ⌘⇧P para cualquier acción, ⌘P para saltar a cualquier fichero (`ruta:42` va a la línea 42) |
 | **Buscar y reemplazar** | En el fichero o en todo el proyecto, con texto o expresiones regulares |
@@ -86,7 +100,8 @@ minimapa, idioma (español o inglés)… Todo se aplica al momento desde Ajustes
 
 **Requisitos:** un Mac con Apple Silicon (M1, M2, M3, M4 o posterior). Para
 usar Claude necesitas tu cuenta de Claude y conexión a internet la primera vez
-que lo abras.
+que lo abras. El dictado descarga una vez su modelo de voz (unos 1,6 GB) y
+macOS te pedirá permiso para el micrófono.
 
 ## Actualizaciones
 
