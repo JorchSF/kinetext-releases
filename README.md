@@ -66,7 +66,9 @@ Se guardan solas mientras escribes. Ábrelas con ⌘⌥N desde cualquier sitio.
 ### A tu manera
 
 Tema claro u oscuro, tamaño de letra, interlineado, color y grosor del cursor,
-minimapa, idioma (español o inglés)… Todo se aplica al momento desde Ajustes.
+minimapa, idioma (español o inglés)… Todo se aplica al momento desde Ajustes,
+con buscador, secciones claras y un botón ↺ para devolver cada ajuste a su
+valor por defecto.
 
 ![Ajustes de Kinetext](images/settings.png)
 
@@ -79,8 +81,8 @@ minimapa, idioma (español o inglés)… Todo se aplica al momento desde Ajustes
 | **Varios cursores** | ⌘D para la siguiente coincidencia, ⌘⇧L para todas, ⌥ + arrastrar para editar en columna |
 | **Paleta de comandos** | ⌘⇧P para cualquier acción, ⌘P para saltar a cualquier fichero (`ruta:42` va a la línea 42) |
 | **Buscar y reemplazar** | En el fichero o en todo el proyecto, con texto o expresiones regulares |
-| **Git integrado** | Commit, push, pull, ramas, historial y blame desde el menú; la rama, en la barra de estado |
-| **Terminal** | La shell de tu Mac en un panel inferior (⌃`) |
+| **Git integrado** | Commit, push, pull, ramas y blame desde el menú; la rama, en la barra de estado. Pestaña **Git** con el grafo de todas las ramas (líneas de colores, merges, autor, fecha y etiquetas) y el diff de cada commit. Se activa sola si tienes git y tu nombre y correo configurados; si falta algo, te dice cómo arreglarlo |
+| **Terminal** | La shell de tu Mac en un panel inferior (⌃`), con «Reiniciar» y «Ocultar» junto a su pestaña |
 | **Comparar ficheros** | Lado a lado, o un fichero con el contenido del portapapeles |
 | **Visores** | PDF con texto seleccionable y OCR, Excel y ODS por hojas, Word, SQLite con consola SQL, audio, vídeo, fuentes y comprimidos con «Extraer aquí» |
 | **Pestañas** | Clic derecho para cerrar las demás, las de la derecha o todas; flechas y rueda del ratón cuando no caben |
@@ -100,7 +102,8 @@ minimapa, idioma (español o inglés)… Todo se aplica al momento desde Ajustes
 
 **Requisitos:** un Mac con Apple Silicon (M1, M2, M3, M4 o posterior). Para
 usar Claude necesitas tu cuenta de Claude y conexión a internet la primera vez
-que lo abras. El dictado descarga una vez su modelo de voz (unos 1,6 GB) y
+que lo abras: no hace falta tener VS Code ni ninguna extensión, Kinetext
+descarga lo necesario de la fuente oficial al pulsar su icono. El dictado descarga una vez su modelo de voz (unos 1,6 GB) y
 macOS te pedirá permiso para el micrófono.
 
 ## Actualizaciones
