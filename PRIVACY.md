@@ -32,8 +32,8 @@ Kinetext no comparte, vende ni cede datos a nadie más.
 ## Tu control
 
 - **Claude**: puedes retirar el permiso en *Ajustes → Claude → Envío de datos a Anthropic aceptado*, o desactivar Claude por completo con *Usar Claude*.
-- **Dictado**: se desactiva en *Ajustes → Editor*. macOS te deja retirar el acceso al micrófono en *Ajustes del Sistema → Privacidad y seguridad → Micrófono*.
-- **Actualizaciones**: se desactiva *Buscar actualizaciones al abrir* en *Ajustes → Apariencia*.
+- **Dictado**: se desactiva en *Ajustes → Dictado por voz*. macOS te deja retirar el acceso al micrófono en *Ajustes del Sistema → Privacidad y seguridad → Micrófono*.
+- **Actualizaciones**: se desactiva *Buscar actualizaciones al abrir* en *Ajustes → General*.
 - **Borrar tus datos**: desinstala la aplicación y borra las carpetas `es.jorch.kinetext` de `~/Library/Application Support`, `~/Library/WebKit` y `~/Library/Caches`. Lo que hayas enviado a Anthropic se gestiona desde tu cuenta de Claude.
 
 ## Menores
@@ -80,8 +80,8 @@ Kinetext shares, sells or hands over data to no one else.
 ## Your control
 
 - **Claude**: withdraw permission in *Settings → Claude → Sending Data to Anthropic Accepted*, or turn Claude off entirely with *Use Claude*.
-- **Dictation**: turn it off in *Settings → Editor*. macOS lets you revoke microphone access in *System Settings → Privacy & Security → Microphone*.
-- **Updates**: turn off *Check for Updates on Launch* in *Settings → Appearance*.
+- **Dictation**: turn it off in *Settings → Voice Dictation*. macOS lets you revoke microphone access in *System Settings → Privacy & Security → Microphone*.
+- **Updates**: turn off *Check for Updates on Launch* in *Settings → General*.
 - **Deleting your data**: uninstall the app and delete the `es.jorch.kinetext` folders in `~/Library/Application Support`, `~/Library/WebKit` and `~/Library/Caches`. What you sent to Anthropic is managed from your Claude account.
 
 ## Children
