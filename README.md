@@ -114,6 +114,13 @@ Ajustes.
 Las novedades de cada versión están en
 [Releases](https://github.com/JorchSF/kinetext-releases/releases).
 
+## Privacidad
+
+Kinetext no tiene cuentas, publicidad ni telemetría, y tus ficheros se quedan
+en tu Mac. El dictado se transcribe en el equipo. Solo si usas Claude se envía
+a Anthropic, con tu cuenta, lo que le das, y la app te lo pide antes. Detalles
+en la [política de privacidad](PRIVACY.md).
+
 ---
 
 <div align="center">
