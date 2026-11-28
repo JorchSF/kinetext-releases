@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="images/icon.png" alt="Logo de Kinetext" width="48" height="48" align="absmiddle"> Kinetext
+# <img src="images/Kinetext.png" alt="Logo de Kinetext" width="48" height="48" align="absmiddle"> Kinetext
 
 **El editor de texto nativo para Mac, con Claude integrado y dictado por voz.**
 
