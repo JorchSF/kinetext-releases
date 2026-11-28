@@ -59,7 +59,8 @@ tablas, código resaltado, imágenes y diagramas Mermaid.
 ### Notas siempre a mano
 
 Una vista propia para tus ideas, listas y apuntes, en Markdown y con buscador.
-Se guardan solas mientras escribes. Ábrelas con ⌘⌥N desde cualquier sitio.
+Se guardan solas mientras escribes. Ábrelas con ⌘⌥N desde cualquier sitio:
+entran desde el lado derecho y tienen su propio micrófono para dictarlas.
 
 ![Vista de notas con la lista y el editor](images/notes.png)
 
