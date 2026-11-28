@@ -106,7 +106,7 @@ valor por defecto.
 
 | | |
 |:--|:--|
-| **Dictado por voz** | Whisper (large-v3-turbo) en el Mac, acelerado con la GPU; en vivo mientras hablas o al terminar, a tu elección |
+| **Dictado por voz** | Whisper (large-v3-turbo) en el Mac, acelerado con la GPU; en vivo mientras hablas o al terminar, y con el modelo Preciso (1,6 GB) o Ligero (574 MB), a tu elección |
 | **Comandos de voz** | «comando …» ejecuta cualquier acción de la paleta; lo que digas después se escribe a continuación |
 | **Claude** | En un panel o en pestañas como en Cursor, con el fichero o la selección como contexto (⌥⌘K), historial de conversaciones y uso de la cuenta |
 | **Varios cursores** | ⌘D para la siguiente coincidencia, ⌘⇧L para todas, ⌥ + arrastrar para editar en columna |
@@ -135,7 +135,7 @@ valor por defecto.
 **Requisitos:** un Mac con Apple Silicon (M1, M2, M3, M4 o posterior). Para
 usar Claude necesitas tu cuenta de Claude y conexión a internet la primera vez
 que lo abras: no hace falta tener VS Code ni ninguna extensión, Kinetext
-descarga lo necesario de la fuente oficial al pulsar su icono. El dictado descarga una vez su modelo de voz (unos 1,6 GB) y
+descarga lo necesario de la fuente oficial al pulsar su icono. El dictado descarga una vez su modelo de voz: el Preciso (unos 1,6 GB) o, si lo eliges en Ajustes, el Ligero (unos 574 MB, casi igual de preciso) y
 macOS te pedirá permiso para el micrófono.
 
 ## Actualizaciones
