@@ -63,7 +63,9 @@ mientras escribes. Ábrelas con ⌘⌥N desde cualquier sitio. Como en Notas de
 macOS, tienen su barra de escritura: **Aa** para títulos, encabezados,
 negrita, cursiva, tachado y listas; **listas de comprobación** con casillas
 que se marcan con un clic; **tablas**; **adjuntos** (las imágenes se ven en la
-nota); **dibujos** a mano alzada, y el **micrófono** para dictarlas. Organízalas
+nota); **dibujos** a mano alzada, y el **micrófono** para dictarlas. Mientras escribes, el texto
+se ve ya formateado (títulos, negrita, citas, tablas…), y puedes **exportar**
+cada nota como Markdown (`.md`), texto o HTML. Organízalas
 en **carpetas y subcarpetas** como en el Finder (arrástralas con el ratón para
 moverlas), con buscador, y **compártelas** por correo, WhatsApp o Telegram.
 
