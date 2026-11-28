@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kinetext
+# <img src="images/icon.png" alt="Logo de Kinetext" width="48" height="48" align="absmiddle"> Kinetext
 
 **El editor de texto nativo para Mac, con Claude integrado y dictado por voz.**
 
@@ -58,11 +58,16 @@ tablas, código resaltado, imágenes y diagramas Mermaid.
 
 ### Notas siempre a mano
 
-Una vista propia para tus ideas, listas y apuntes, en Markdown y con buscador.
-Se guardan solas mientras escribes. Ábrelas con ⌘⌥N desde cualquier sitio:
-entran desde el lado derecho y tienen su propio micrófono para dictarlas.
+Una vista propia para tus ideas, listas y apuntes, que se guardan solas
+mientras escribes. Ábrelas con ⌘⌥N desde cualquier sitio. Como en Notas de
+macOS, tienen su barra de escritura: **Aa** para títulos, encabezados,
+negrita, cursiva, tachado y listas; **listas de comprobación** con casillas
+que se marcan con un clic; **tablas**; **adjuntos** (las imágenes se ven en la
+nota); **dibujos** a mano alzada, y el **micrófono** para dictarlas. Organízalas
+en **carpetas y subcarpetas** como en el Finder (arrástralas con el ratón para
+moverlas), con buscador, y **compártelas** por correo, WhatsApp o Telegram.
 
-![Vista de notas con la lista y el editor](images/notes.png)
+![Notas con carpetas, barra de escritura, lista de comprobación, tabla y un dibujo](images/notes.png)
 
 ### A tu manera
 
@@ -75,20 +80,42 @@ valor por defecto.
 
 ### Y mucho más
 
+**Abre casi cualquier fichero en una pestaña, sin cambiar de app:**
+
+| | |
+|:--|:--|
+| **Código y texto** | Resaltado para decenas de lenguajes y ficheros de configuración (también sin extensión, como `Dockerfile` o `.env`), minimapa y guía de margen |
+| **Markdown** | Vista previa en vivo con tablas, código resaltado, imágenes y diagramas Mermaid |
+| **PDF** | Zoom, texto seleccionable y **OCR** de macOS para escaneados y fotos de documentos |
+| **Audio y vídeo** | Reproduce mp3, m4a, aac, wav, aiff, flac, opus, ogg, mp4, mov, m4v y webm con su reproductor |
+| **Bases de datos SQLite** | `.db`, `.sqlite`, `.sqlite3`: tablas y vistas, datos con orden y filtro, estructura, **consola SQL** (pide confirmación antes de modificar) y exportar a CSV |
+| **Hojas de cálculo** | Excel (xls, xlsx, xlsm, xlsb) y ODS como tabla, con una pestaña por hoja |
+| **Documentos** | Word (doc, docx), RTF y ODT con su formato |
+| **CSV y TSV** | Cada columna de un color y separador detectado solo (`,` `;` tabulador `\|`) |
+| **Imágenes** | PNG, JPG, GIF, WebP, SVG, HEIC, TIFF, AVIF… |
+| **Fuentes** | ttf, otf, woff y woff2 en varios tamaños, con texto de muestra editable |
+| **Comprimidos** | zip, tar.gz, 7z, rar, iso…: contenido en árbol y «Extraer aquí» |
+| **Logs** | Niveles (error, aviso, info, debug) en colores |
+| **Codificaciones** | Abre y guarda en UTF-8, UTF-16, Windows-1252, Mac Roman y muchas más |
+
+**Y para trabajar más rápido:**
+
 | | |
 |:--|:--|
 | **Dictado por voz** | Whisper (large-v3-turbo) en el Mac, acelerado con la GPU; en vivo mientras hablas o al terminar, a tu elección |
 | **Comandos de voz** | «comando …» ejecuta cualquier acción de la paleta; lo que digas después se escribe a continuación |
+| **Claude** | En un panel o en pestañas como en Cursor, con el fichero o la selección como contexto (⌥⌘K), historial de conversaciones y uso de la cuenta |
 | **Varios cursores** | ⌘D para la siguiente coincidencia, ⌘⇧L para todas, ⌥ + arrastrar para editar en columna |
 | **Paleta de comandos** | ⌘⇧P para cualquier acción, ⌘P para saltar a cualquier fichero (`ruta:42` va a la línea 42) |
 | **Buscar y reemplazar** | En el fichero o en todo el proyecto, con texto o expresiones regulares |
-| **Git integrado** | Commit, push, pull, ramas y blame desde el menú; la rama, en la barra de estado. Pestaña **Git** con el grafo de todas las ramas (líneas de colores, merges, autor, fecha y etiquetas) y el diff de cada commit. Se activa sola si tienes git y tu nombre y correo configurados; si falta algo, te dice cómo arreglarlo |
+| **Git integrado** | Commit, push, pull, ramas, merge, rebase, stash y blame desde el menú; la rama, en la barra de estado. Pestaña **Git** con el grafo de todas las ramas (líneas de colores, merges, autor, fecha y etiquetas) y el diff de cada commit. Se activa sola si tienes git y tu nombre y correo configurados; si falta algo, te dice cómo arreglarlo |
 | **Terminal** | La shell de tu Mac en un panel inferior (⌃`), con «Reiniciar» y «Ocultar» junto a su pestaña |
+| **Explorador** | Crear, renombrar, copiar, mover y arrastrar desde el Finder; clic derecho en la carpeta para abrirla en el Finder o en el terminal |
 | **Comparar ficheros** | Lado a lado, o un fichero con el contenido del portapapeles |
-| **Visores** | PDF con texto seleccionable y OCR, Excel y ODS por hojas, Word, SQLite con consola SQL, audio, vídeo, fuentes y comprimidos con «Extraer aquí» |
 | **Pestañas** | Clic derecho para cerrar las demás, las de la derecha o todas; flechas y rueda del ratón cuando no caben |
-| **Codificaciones** | Abre y guarda en UTF-8, UTF-16, Windows-1252, Mac Roman y muchas más |
-| **Sesión** | Vuelve a abrir la misma carpeta, las mismas pestañas y los mismos cursores |
+| **Sesión** | Vuelve a abrir la misma carpeta, las mismas pestañas y los mismos cursores, y recupera lo que no guardaste |
+| **Imprimir y ventanas** | Imprime el fichero; varias ventanas (⇧⌘N) con las opciones de ventana de macOS |
+| **Idiomas** | Interfaz en español o inglés |
 | **Accesibilidad** | Alto contraste, reducir movimiento, foco reforzado y compatibilidad con VoiceOver |
 
 ---
