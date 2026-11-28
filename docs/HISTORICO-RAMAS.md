@@ -11,3 +11,4 @@
 | 2026-11-28 | `fix/readme-0.29` | PR #8 → `main` | README al día con Kinetext 0.29.0: logo nuevo (`images/icon.png`, 256 px a partir de `docs/img/Kinetext.png` del código), notas con formato mientras se escribe y exportar como Markdown, texto o HTML; captura `images/notes.png` nueva. |
 | 2026-11-28 | `fix/readme-logo` | PR #9 → `main` | Logo del README renombrado a `images/Kinetext.png`: con el nombre anterior (`icon.png`) GitHub seguía mostrando la imagen antigua desde su caché. |
 | 2026-11-28 | `fix/readme-logo-arriba` | PR #10 → `main` | Logo del README (128 px) encima del título «Kinetext», centrado, en vez de a su lado. |
+| 2026-11-28 | `fix/readme-0.30` | PR #11 → `main` | README al día con Kinetext 0.30.0: modelo de dictado Preciso (1,6 GB) o Ligero (574 MB) a elegir en Ajustes. |
